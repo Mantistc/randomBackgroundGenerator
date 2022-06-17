@@ -1,0 +1,50 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, rgb(0, 255, 238) , rgb(255, 0, 255)); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+.inputc {
+    background-color: rgb(255, 252, 252);
+    border-radius: 7px;
+    border: black 2px solid;
+    padding: 3px;
+}
+.butt {
+    background-color: rgb(255, 252, 252);
+    border-radius: 7px;
+    border: black 2px solid;
+    cursor: pointer;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+.butt:hover {
+    background-color: black;
+    color: white;
+}
+
+.color1, .color2 {
+    cursor: pointer;
+}
